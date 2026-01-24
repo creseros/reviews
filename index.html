@@ -66,7 +66,11 @@
         right: -5%;
         width: 500px;
         height: 500px;
-        background: radial-gradient(circle, rgba(232, 168, 124, 0.3), transparent);
+        background: radial-gradient(
+          circle,
+          rgba(232, 168, 124, 0.3),
+          transparent
+        );
         animation-delay: 0s;
       }
 
@@ -75,7 +79,11 @@
         left: -10%;
         width: 600px;
         height: 600px;
-        background: radial-gradient(circle, rgba(246, 114, 128, 0.25), transparent);
+        background: radial-gradient(
+          circle,
+          rgba(246, 114, 128, 0.25),
+          transparent
+        );
         animation-delay: 5s;
       }
 
@@ -84,12 +92,17 @@
         left: 50%;
         width: 400px;
         height: 400px;
-        background: radial-gradient(circle, rgba(167, 139, 250, 0.2), transparent);
+        background: radial-gradient(
+          circle,
+          rgba(167, 139, 250, 0.2),
+          transparent
+        );
         animation-delay: 10s;
       }
 
       @keyframes float {
-        0%, 100% {
+        0%,
+        100% {
           transform: translate(0, 0) scale(1);
         }
         33% {
@@ -218,9 +231,15 @@
         animation: fadeInUp 0.8s ease-out backwards;
       }
 
-      .feature-card:nth-child(1) { animation-delay: 0.1s; }
-      .feature-card:nth-child(2) { animation-delay: 0.2s; }
-      .feature-card:nth-child(3) { animation-delay: 0.3s; }
+      .feature-card:nth-child(1) {
+        animation-delay: 0.1s;
+      }
+      .feature-card:nth-child(2) {
+        animation-delay: 0.2s;
+      }
+      .feature-card:nth-child(3) {
+        animation-delay: 0.3s;
+      }
 
       .feature-card:hover {
         transform: translateY(-8px);
@@ -239,15 +258,27 @@
       }
 
       .feature-icon.warm {
-        background: linear-gradient(135deg, rgba(232, 168, 124, 0.2), rgba(246, 114, 128, 0.2));
+        background: linear-gradient(
+          135deg,
+          rgba(232, 168, 124, 0.2),
+          rgba(246, 114, 128, 0.2)
+        );
       }
 
       .feature-icon.purple {
-        background: linear-gradient(135deg, rgba(167, 139, 250, 0.2), rgba(96, 165, 250, 0.2));
+        background: linear-gradient(
+          135deg,
+          rgba(167, 139, 250, 0.2),
+          rgba(96, 165, 250, 0.2)
+        );
       }
 
       .feature-icon.blue {
-        background: linear-gradient(135deg, rgba(96, 165, 250, 0.2), rgba(34, 211, 238, 0.2));
+        background: linear-gradient(
+          135deg,
+          rgba(96, 165, 250, 0.2),
+          rgba(34, 211, 238, 0.2)
+        );
       }
 
       .feature-card h3 {
@@ -306,8 +337,12 @@
         animation: fadeInUp 0.8s ease-out backwards;
       }
 
-      .client-card:nth-child(1) { animation-delay: 0.2s; }
-      .client-card:nth-child(2) { animation-delay: 0.3s; }
+      .client-card:nth-child(1) {
+        animation-delay: 0.2s;
+      }
+      .client-card:nth-child(2) {
+        animation-delay: 0.3s;
+      }
 
       .client-card::before {
         content: "";
@@ -409,9 +444,15 @@
         animation: fadeInUp 0.8s ease-out backwards;
       }
 
-      .stat-item:nth-child(1) { animation-delay: 0.1s; }
-      .stat-item:nth-child(2) { animation-delay: 0.2s; }
-      .stat-item:nth-child(3) { animation-delay: 0.3s; }
+      .stat-item:nth-child(1) {
+        animation-delay: 0.1s;
+      }
+      .stat-item:nth-child(2) {
+        animation-delay: 0.2s;
+      }
+      .stat-item:nth-child(3) {
+        animation-delay: 0.3s;
+      }
 
       .stat-number {
         font-family: "Fraunces", serif;
@@ -452,7 +493,11 @@
       /* How It Works Section */
       .how-it-works {
         padding: 100px 0;
-        background: linear-gradient(180deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+        background: linear-gradient(
+          180deg,
+          var(--bg-primary) 0%,
+          var(--bg-secondary) 100%
+        );
       }
 
       .case-studies {
@@ -471,8 +516,12 @@
         animation: fadeInUp 0.8s ease-out backwards;
       }
 
-      .case-study:nth-child(1) { animation-delay: 0.2s; }
-      .case-study:nth-child(2) { animation-delay: 0.4s; }
+      .case-study:nth-child(1) {
+        animation-delay: 0.2s;
+      }
+      .case-study:nth-child(2) {
+        animation-delay: 0.4s;
+      }
 
       .case-study:hover {
         transform: translateY(-8px);
@@ -674,7 +723,11 @@
         align-items: center;
         gap: 6px;
         padding: 6px 14px;
-        background: linear-gradient(135deg, rgba(232, 168, 124, 0.15), rgba(246, 114, 128, 0.15));
+        background: linear-gradient(
+          135deg,
+          rgba(232, 168, 124, 0.15),
+          rgba(246, 114, 128, 0.15)
+        );
         color: var(--accent-coral);
         border-radius: 20px;
         font-size: 13px;
@@ -766,12 +819,20 @@
         <p>
           A beautiful, modern platform with QR code solutions for collecting
           business reviews and tracking individual staff performance. Drive more
-          reviews, gather actionable insights, and elevate customer satisfaction.
+          reviews, gather actionable insights, and elevate customer
+          satisfaction.
         </p>
         <a href="#how-it-works" class="cta-button">
           <span>See How It Works</span>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M5 12h14M12 5l7 7-7 7"/>
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path d="M5 12h14M12 5l7 7-7 7" />
           </svg>
         </a>
       </div>
@@ -816,7 +877,8 @@
       <div class="container">
         <h2 class="section-title">How It Works</h2>
         <p class="section-subtitle">
-          Two powerful ways to collect feedback: Business-wide reviews and individual staff performance tracking
+          Two powerful ways to collect feedback: Business-wide reviews and
+          individual staff performance tracking
         </p>
 
         <div class="case-studies">
@@ -830,12 +892,13 @@
               </div>
             </div>
 
-            <div class="example-badge">
-              💡 Use Case Example
-            </div>
+            <div class="example-badge">💡 Use Case Example</div>
 
             <div class="case-study-description">
-              Place a QR code at your reception area or checkout counter. Customers scan it to share their overall experience with your business. Perfect for restaurants, hotels, retail stores, and service centers.
+              Place a QR code at your reception area or checkout counter.
+              Customers scan it to share their overall experience with your
+              business. Perfect for restaurants, hotels, retail stores, and
+              service centers.
             </div>
 
             <div class="flow-steps">
@@ -845,7 +908,8 @@
                   <span class="step-icon">🎨</span>
                   <div class="step-title">Generate Business QR Code</div>
                   <div class="step-description">
-                    Create a unique QR code linked to your business feedback page (e.g., stallwarts.com/iskcon-porto/business/)
+                    Create a unique QR code linked to your business feedback
+                    page (e.g., www.stallwarts.com/iskcon-porto/business/)
                   </div>
                 </div>
               </div>
@@ -856,7 +920,9 @@
                   <span class="step-icon">📍</span>
                   <div class="step-title">Place at Reception/Checkout</div>
                   <div class="step-description">
-                    Print and display the QR code at your reception desk, payment counter, or exit area where customers can easily see it
+                    Print and display the QR code at your reception desk,
+                    payment counter, or exit area where customers can easily see
+                    it
                   </div>
                 </div>
               </div>
@@ -867,7 +933,8 @@
                   <span class="step-icon">📱</span>
                   <div class="step-title">Customer Scans & Reviews</div>
                   <div class="step-description">
-                    Customer scans the QR code with their phone, opens the beautiful feedback page, and selects an emoji rating
+                    Customer scans the QR code with their phone, opens the
+                    beautiful feedback page, and selects an emoji rating
                   </div>
                 </div>
               </div>
@@ -878,7 +945,9 @@
                   <span class="step-icon">✨</span>
                   <div class="step-title">Smart Routing</div>
                   <div class="step-description">
-                    Happy customers are directed to Google Reviews (public). Unhappy customers are sent to a private feedback form for resolution
+                    Happy customers are directed to Google Reviews (public).
+                    Unhappy customers are sent to a private feedback form for
+                    resolution
                   </div>
                 </div>
               </div>
@@ -887,7 +956,9 @@
             <div class="qr-visual">
               <div class="qr-mockup"></div>
               <div class="qr-label">Business QR Code</div>
-              <div class="qr-url">stallwarts.com/iskcon-porto/business/</div>
+              <div class="qr-url">
+                www.stallwarts.com/iskcon-porto/business/
+              </div>
             </div>
           </div>
 
@@ -901,12 +972,13 @@
               </div>
             </div>
 
-            <div class="example-badge">
-              💡 Use Case Example
-            </div>
+            <div class="example-badge">💡 Use Case Example</div>
 
             <div class="case-study-description">
-              Give each employee their own unique QR code. Waiters, sales staff, or service representatives present their QR code to customers for direct feedback. Track individual performance and reward excellence.
+              Give each employee their own unique QR code. Waiters, sales staff,
+              or service representatives present their QR code to customers for
+              direct feedback. Track individual performance and reward
+              excellence.
             </div>
 
             <div class="flow-steps">
@@ -916,7 +988,9 @@
                   <span class="step-icon">👤</span>
                   <div class="step-title">Generate Staff QR Codes</div>
                   <div class="step-description">
-                    Create unique QR codes for each employee with their ID (e.g., stallwarts.com/iskcon-porto/staff/01/, /staff/02/, etc.)
+                    Create unique QR codes for each employee with their ID
+                    (e.g., stallwarts.com/iskcon-porto/staff/01/, /staff/02/,
+                    etc.)
                   </div>
                 </div>
               </div>
@@ -927,7 +1001,8 @@
                   <span class="step-icon">🎫</span>
                   <div class="step-title">Provide to Staff Members</div>
                   <div class="step-description">
-                    Print QR codes on badges, table tents, or business cards. Each staff member gets their personalized code
+                    Print QR codes on badges, table tents, or business cards.
+                    Each staff member gets their personalized code
                   </div>
                 </div>
               </div>
@@ -938,7 +1013,8 @@
                   <span class="step-icon">🤝</span>
                   <div class="step-title">Present to Customer</div>
                   <div class="step-description">
-                    Waiter/staff presents their QR code: "Please scan to rate my service!" Customer scans and provides instant feedback
+                    Waiter/staff presents their QR code: "Please scan to rate my
+                    service!" Customer scans and provides instant feedback
                   </div>
                 </div>
               </div>
@@ -949,7 +1025,8 @@
                   <span class="step-icon">📊</span>
                   <div class="step-title">Track & Reward</div>
                   <div class="step-description">
-                    Monitor individual performance, identify top performers, provide coaching, and reward excellent service
+                    Monitor individual performance, identify top performers,
+                    provide coaching, and reward excellent service
                   </div>
                 </div>
               </div>
@@ -968,7 +1045,7 @@
     <!-- Stats -->
     <section class="stats">
       <div class="container">
-        <div style="display: contents;">
+        <div style="display: contents">
           <div class="stat-item">
             <div class="stat-number">100%</div>
             <div class="stat-label">Response Rate</div>
@@ -1006,7 +1083,7 @@
             <a href="./iskcon-porto/business/index.html" class="client-link">
               View Feedback Page
               <svg viewBox="0 0 24 24">
-                <path d="M5 12h14M12 5l7 7-7 7"/>
+                <path d="M5 12h14M12 5l7 7-7 7" />
               </svg>
             </a>
           </div>
@@ -1020,10 +1097,17 @@
               satisfaction. Using our platform to gather valuable insights and
               drive continuous improvement.
             </p>
-            <a href="#" class="client-link" onclick="alert('Coming soon!'); return false;">
+            <a
+              href="#"
+              class="client-link"
+              onclick="
+                alert('Coming soon!');
+                return false;
+              "
+            >
               View Feedback Page
               <svg viewBox="0 0 24 24">
-                <path d="M5 12h14M12 5l7 7-7 7"/>
+                <path d="M5 12h14M12 5l7 7-7 7" />
               </svg>
             </a>
           </div>
@@ -1035,9 +1119,10 @@
     <footer>
       <div class="container">
         <p class="footer-text">
-          Built with care for amazing businesses <span class="footer-heart">♥</span>
+          Built with care for amazing businesses
+          <span class="footer-heart">♥</span>
         </p>
-        <p class="footer-text" style="font-size: 14px; opacity: 0.7;">
+        <p class="footer-text" style="font-size: 14px; opacity: 0.7">
           © 2026 Experience Hub. All rights reserved.
         </p>
       </div>
@@ -1045,14 +1130,14 @@
 
     <script>
       // Smooth scrolling for anchor links
-      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
           e.preventDefault();
-          const target = document.querySelector(this.getAttribute('href'));
+          const target = document.querySelector(this.getAttribute("href"));
           if (target) {
             target.scrollIntoView({
-              behavior: 'smooth',
-              block: 'start'
+              behavior: "smooth",
+              block: "start",
             });
           }
         });
@@ -1061,18 +1146,20 @@
       // Scroll reveal animation
       const observerOptions = {
         threshold: 0.1,
-        rootMargin: '0px 0px -50px 0px'
+        rootMargin: "0px 0px -50px 0px",
       };
 
       const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
+        entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            entry.target.classList.add('active');
+            entry.target.classList.add("active");
           }
         });
       }, observerOptions);
 
-      document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+      document
+        .querySelectorAll(".reveal")
+        .forEach((el) => observer.observe(el));
     </script>
   </body>
 </html>
